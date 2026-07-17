@@ -38,7 +38,6 @@ Top skills by Optimal Score:
 3. AWS, Airflow, Spark, and Snowflake also rank highly, reflecting their importance in the data engineering landscape, with optimal scores ranging from 0.91 to 0.82.
 4. Kafka offers high compensation ($145k) and moderate demand (300 postings), resulting in an optimal score of 0.82.
 5. Tools like Azure, Java, Scala, Git, Kubernetes, Databricks, Redshift, GCP, NoSQL, Hadoop, PySpark, MongoDB, Docker, Go, R, BigQuery, and GitHub round out the top 25 skills with varying combinations of demand and salary.
-*/
 
 ┌────────────┬───────────────┬─────────────────┬───────────────┐
 │   skills   │ median_salary │ ln_demand_count │ optimal_score │
@@ -71,3 +70,5 @@ Top skills by Optimal Score:
 │ github     │      135000.0 │             4.8 │          0.65 │
 └────────────┴───────────────┴─────────────────┴───────────────┘
   25 rows                                            4 columns
+
+*/
