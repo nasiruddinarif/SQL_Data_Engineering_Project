@@ -27,10 +27,10 @@ LIMIT 10;
 
 /*
 Here's the breakdown of the most in-demand skills for data engineers based on the query results:
-SQL and Python are the top two skills, indicating their importance in data engineering roles.
-With the increasing adoption of cloud platforms, skills in AWS, Azure, and GCP are also highly sought after.
-The presence of Spark, Airflow, Snowflake, and Databricks in the top 10 list highlights the significance of big data processing, workflow orchestration, and modern data warehousing technologies in the field of data engineering.
-The demand for Java suggests that traditional programming skills are still relevant in data engineering, especially for building scalable data pipelines and applications.
+- SQL and Python are the top two skills, indicating their importance in data engineering roles.
+- With the increasing adoption of cloud platforms, skills in AWS, Azure, and GCP are also highly sought after.
+- The presence of Spark, Airflow, Snowflake, and Databricks in the top 10 list highlights the significance of big data processing, workflow orchestration, and modern data warehousing technologies in the field of data engineering.
+- The demand for Java suggests that traditional programming skills are still relevant in data engineering, especially for building scalable data pipelines and applications.
 
 Key Takeaways:
 1. SQL and Python are essential skills for data engineers, as they are widely used for data manipulation, analysis, and building data pipelines.
