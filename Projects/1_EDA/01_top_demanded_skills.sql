@@ -38,7 +38,7 @@ Key Takeaways:
 3. Big data processing frameworks (Spark) and workflow orchestration tools (Airflow) are crucial for managing large-scale data processing and ETL workflows.
 4. Modern data warehousing technologies (Snowflake, Databricks) are becoming increasingly important for data engineers to efficiently store, process, and analyze large datasets.
 Overall, data engineers should focus on developing a strong foundation in SQL and Python, while also gaining expertise in cloud platforms, big data processing frameworks, workflow orchestration tools, and modern data warehousing technologies to stay competitive in the job market.
-*/
+
 
 ┌────────────┬──────────────┐   
 │   skills   │ demand_count │
@@ -56,3 +56,4 @@ Overall, data engineers should focus on developing a strong foundation in SQL an
 │ gcp        │         6446 │
 └────────────┴──────────────┘
   10 rows         2 columns
+*/
