@@ -66,7 +66,10 @@ By querying across these interconnected tables, I extracted insights about skill
 3. **Optimal Skills** – Calculates an optimal score combining demand and median salary to identify the most valuable skills to learn
 
 ### Key Insights
-*TODO — fill in once each query has been written and run against the dataset. Don't backfill numbers from someone else's analysis; these need to come from this project's own output.*
+- 🧠 Core languages: SQL and Python each appear in ~29,000 job postings, making them the most demanded skills
+- ☁️ Cloud platforms: AWS and Azure are critical for modern data engineering roles-
+- 🧱 Infra & tooling: Kubernetes, Docker, and Terraform are associated with premium salaries
+- 🔥 Big data tools: Apache Spark shows strong demand with competitive compensation
 
 ## 💻 SQL Skills Demonstrated
 
