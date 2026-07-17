@@ -25,6 +25,8 @@ Job market analysts need to answer questions like:
 
 This project analyzes a data warehouse built using a star schema design. The warehouse structure consists of:
 
+![Data warehouse schema](../Resources/1_2_Data_Warehouse.png)
+
 - **Fact Table:** `job_postings_fact` – central table containing job posting details (job titles, locations, salaries, dates, etc.)
 - **Dimension Tables:**
   - `company_dim` – company information linked to job postings
@@ -32,6 +34,8 @@ This project analyzes a data warehouse built using a star schema design. The war
 - **Bridge Table:** `skills_job_dim` – resolves the many-to-many relationship between job postings and skills
 
 By querying across these interconnected tables, I extracted insights about skill demand, salary patterns, and optimal skill combinations for data engineering roles.
+
+![Data pipeline overview](../Resources/1_1_Project1_EDA.png)
 
 ## 🧰 Tech Stack
 
@@ -71,6 +75,10 @@ By querying across these interconnected tables, I extracted insights about skill
 
 **Data Analysis Techniques**
 - **Grouping:** `GROUP BY` for categorical analysis by skill
+- **Mathematical Functions:** `LN()` for natural logarithm transformation to normalize demand metrics
+- **Calculated Metrics:** Derived optimal score combining log-transformed demand with median salary
+- **HAVING Clause:** Filtering aggregated results (e.g. skills above a minimum posting threshold)
+- **NULL Handling:** Proper filtering of incomplete records (e.g. `salary_year_avg IS NOT NULL`)
 - **Mathematical Functions:** `LN()` for natural logarithm transformation to normalize demand metrics
 - **Calculated Metrics:** Derived optimal score combining log-transformed demand with median salary
 - **HAVING Clause:** Filtering aggregated results (e.g. skills above a minimum posting threshold)
