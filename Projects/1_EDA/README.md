@@ -2,6 +2,8 @@
 
 ## EDA Project Overview
 
+![Data pipeline overview](../Resources/1_1_Project1_EDA.png)
+
 A SQL project analyzing the data engineer job market using real world job posting data. It demonstrates my ability to write production-quality analytical SQL, design efficient queries, and turn business questions into data-driven insights.
 
 ## 🧾 Executive Summary (For Hiring Managers)
@@ -34,8 +36,6 @@ This project analyzes a data warehouse built using a star schema design. The war
 - **Bridge Table:** `skills_job_dim` – resolves the many-to-many relationship between job postings and skills
 
 By querying across these interconnected tables, I extracted insights about skill demand, salary patterns, and optimal skill combinations for data engineering roles.
-
-![Data pipeline overview](../Resources/1_1_Project1_EDA.png)
 
 ## 🧰 Tech Stack
 
