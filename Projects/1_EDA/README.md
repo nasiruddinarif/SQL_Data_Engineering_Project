@@ -9,8 +9,11 @@ A SQL project analyzing the data engineer job market using real world job postin
 ## 🧾 Executive Summary (For Hiring Managers)
 
 ✅ **Project scope:** Built 3 analytical queries that answer key questions about the data engineer job market
+
 ✅ **Data modeling:** Used multi-table joins across fact and dimension tables to extract insights
+
 ✅ **Analytics:** Applied aggregations, filtering, and sorting to find top skills by demand, salary, and overall value
+
 ✅ **Outcomes:** *TODO — fill in once queries are run (e.g. skill dominance, cloud trends, salary patterns)*
 
 If you only have a minute, review these:
