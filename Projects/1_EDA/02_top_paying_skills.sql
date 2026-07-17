@@ -47,7 +47,6 @@ Key Insights:
 - Most skills on the list are no longer extreme statistical outliers with just a handful of postings; instead, many show consistently strong demand.
 
 Takeaway: While the very top-paying skill (Rust) still has less demand than major cloud and data tools, most of the top-paying skills have both solid salaries and significant demand. This suggests that learning tools like Terraform, Golang, Spring, Neo4j, and especially core data engineering tools (Airflow, Kubernetes) provides a strong balance between compensation and marketability.
-*/
 
 ┌────────────┬───────────────┬──────────────┐
 │   skills   │ median_salary │ demand_count │
@@ -80,3 +79,4 @@ Takeaway: While the very top-paying skill (Rust) still has less demand than majo
 │ jupyter    │      147500.0 │          400 │
 └────────────┴───────────────┴──────────────┘
   25 rows                         3 columns
+*/
